@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-07-10T06:27:11.442Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="WzTWfg9qP50sjcmmd0I8" version="24.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-10T06:28:12.508Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="IKuT76xKHKu2kVbQJcW4" version="24.6.4" type="github">
   <diagram name="第 1 页" id="ZNOsRtFlWW2Wcgrf3gi9">
     <mxGraphModel dx="1434" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -45,6 +45,12 @@
         </mxCell>
         <mxCell id="c-XZTNxwqpBs0ZEyccTJ-35" value="本地dev分支源码，编译好后提交到线上gitlab的dev分支，内网游戏服更新使用此分支" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="260" y="340" width="170" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="c-XZTNxwqpBs0ZEyccTJ-41" value="改造前" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="120" y="40" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="c-XZTNxwqpBs0ZEyccTJ-42" value="改造后" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="120" y="650" width="100" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
