@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-07-10T06:16:42.010Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="n3C7Hjfo69qXz3e_u0g3" version="24.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-10T06:27:11.442Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="WzTWfg9qP50sjcmmd0I8" version="24.6.4" type="github">
   <diagram name="第 1 页" id="ZNOsRtFlWW2Wcgrf3gi9">
     <mxGraphModel dx="1434" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -23,19 +23,28 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="c-XZTNxwqpBs0ZEyccTJ-10" value="线上gitlab&lt;div&gt;c# 编译后的代码&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="380" y="265" width="70" height="35" as="geometry" />
+          <mxGeometry x="440" y="265" width="70" height="35" as="geometry" />
         </mxCell>
         <mxCell id="c-XZTNxwqpBs0ZEyccTJ-11" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="450" y="220" width="20" height="120" as="geometry" />
+          <mxGeometry x="510" y="220" width="20" height="120" as="geometry" />
         </mxCell>
         <mxCell id="c-XZTNxwqpBs0ZEyccTJ-12" value="dev" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="470" y="310" width="60" height="30" as="geometry" />
+          <mxGeometry x="530" y="310" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="c-XZTNxwqpBs0ZEyccTJ-13" value="main" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="470" y="210" width="60" height="20" as="geometry" />
+          <mxGeometry x="530" y="215" width="60" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="c-XZTNxwqpBs0ZEyccTJ-14" value="Text" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="290" y="160" width="60" height="30" as="geometry" />
+        <mxCell id="c-XZTNxwqpBs0ZEyccTJ-15" value="本地main分支源码，编译好后提交到线上gitlab的main分支，正式更新使用此分支" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="260" y="160" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="c-XZTNxwqpBs0ZEyccTJ-34" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="270" y="330" as="sourcePoint" />
+            <mxPoint x="440" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c-XZTNxwqpBs0ZEyccTJ-35" value="本地dev分支源码，编译好后提交到线上gitlab的dev分支，内网游戏服更新使用此分支" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="260" y="340" width="170" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
